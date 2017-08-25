@@ -16,8 +16,12 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
+gem 'devise'
 gem 'carrierwave', '~> 1.0'
 gem 'faker'
+
+gem 'figaro'
+gem 'fog'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
